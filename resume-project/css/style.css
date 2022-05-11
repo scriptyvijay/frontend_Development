@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100&display=swap");
+
+html {
+	scroll-behavior: smooth;
+	font-size: 16px;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+header {
+	height: 40vh;
+	width: 100vw;
+	background-image: url("../img/singapore-1990959_1920.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.horizontal-list {
+	padding-top: 10px;
+	list-style: none;
+}
+
+.horizontal-list li {
+	display: inline-block;
+	margin: 0px 8px;
+}
+
+.horizontal-list li a {
+	color: white;
+	text-decoration: none;
+	transition: color 0.5 border-bottom 0.5;
+}
+
+.horizontal-list li a:hover {
+	color: grey;
+	border-bottom: 1px grey solid;
+}
+
+.text-center {
+	text-align: center;
+}
+
+@media (min-width: 200px) {
+	nav {
+		display: none;
+	}
+}
