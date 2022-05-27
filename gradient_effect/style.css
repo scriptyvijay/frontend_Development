@@ -1,0 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 500px;
+	height: 500px;
+	background-size: cover;
+	color: white;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.336), rgba(0, 102, 255, 0.493)), url("1.jpg");
+}
